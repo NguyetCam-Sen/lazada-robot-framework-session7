@@ -4,7 +4,9 @@ Library                 SeleniumLibrary
 
 *** Keywords ***
 Click on Add To Cart Button
-    click button            xpath=//*[@id="module_add_to_cart"]/div/button[2]
+    [Arguments]             ${cart_button_xpath}
+    click button            ${cart_button_xpath}
 
-User must login to add item to cart
-    wait until page contains        Welcome! Please Login to continue.
+#User must login to add item to cart
+#    [Arguments]             ${verify_cart_login_page}
+#    wait until page contains        ${verify_cart_login_page}

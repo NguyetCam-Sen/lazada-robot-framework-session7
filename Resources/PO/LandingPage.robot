@@ -3,12 +3,12 @@ Documentation       Keywords for Loading Page and Verifying
 Library             SeleniumLibrary
 
 *** Variables ***
-${web_link}         http://lazada.vn
-${verify_keys}      LazMall
 
 *** Keywords ***
 Load Lazada Web
+    [Arguments]     ${web_link}
     go to           ${web_link}
 
 Verify Page Loaded
-    wait until page contains        ${verify_keys}
+    [Arguments]                     ${verify_web_keys}
+    wait until page contains        ${verify_web_keys}

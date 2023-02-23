@@ -3,7 +3,6 @@ Documentation           Keywords for Opening and Closing Browser
 Library                 SeleniumLibrary
 
 *** Variables ***
-${browser}              chrome
 
 *** Keywords ***
 Selenium General Settings
@@ -11,6 +10,7 @@ Selenium General Settings
     set selenium timeout           10s
 
 Start Web Test
+    [Arguments]             ${browser}
     open browser            about:blank         ${browser}
 
 End Web Test

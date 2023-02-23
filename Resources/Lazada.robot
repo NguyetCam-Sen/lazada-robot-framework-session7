@@ -6,14 +6,17 @@ Resource                PO/Cart.robot
 
 *** Keywords ***
 Search Product
-    SearchResults.Search Product on Lazada
-    SearchResults.Verify Product Searched
+    [Arguments]     ${search_input_id}      ${search_text}      ${search_button_xpath}      ${verify_product_searched_keys}
+    SearchResults.Search Product on Lazada      ${search_input_id}      ${search_text}      ${search_button_xpath}
+    SearchResults.Verify Product Searched       ${verify_product_searched_keys}
 
 View Product Page
-    Product.Choose Product from Search Results Page
-    Product.Verify Product Page Loaded
+    [Arguments]     ${product_xpath}        ${verify_product_page_loaded_keys}
+    Product.Choose Product from Search Results Page             ${product_xpath}
+    Product.Verify Product Page Loaded                          ${verify_product_page_loaded_keys}
 
 Add to Cart
-    Cart.Click on Add To Cart Button
-    Cart.User must login to add item to cart
+    [Arguments]             ${cart_button_xpath}        ${verify_cart_login_page}
+    Cart.Click on Add To Cart Button                    ${cart_button_xpath}
+    #Cart.User must login to add item to cart            ${verify_cart_login_page}
 

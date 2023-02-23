@@ -7,9 +7,15 @@
     <list default="true" id="c34cd050-5ca3-461b-9d4e-b1087e0c01b3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Common.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Common.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Lazada.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Lazada.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/PO/Cart.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PO/Cart.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PO/LandingPage.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PO/LandingPage.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PO/Product.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PO/Product.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/PO/SearchResults.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/PO/SearchResults.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Results/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Results/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Results/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Lazada.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Lazada.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
